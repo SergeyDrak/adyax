@@ -1,0 +1,7 @@
+name = Adyaxtest
+description = "Add automatically numbered footnotes to your posts."
+core = 7.x
+version = 7.x-1.0
+package = Adyax
+
+dependencies[] = wysiwyg

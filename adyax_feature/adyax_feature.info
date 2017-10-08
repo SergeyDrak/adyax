@@ -1,0 +1,12 @@
+name = Adyax feature
+description = The functionality should be configured in FULL HTML mode and all CKEditor configurations should be saved in a feature module.
+core = 7.x
+package = Adyax
+version = 7.x-1.0
+dependencies[] = adyax_test
+dependencies[] = features
+dependencies[] = filter
+dependencies[] = wysiwyg
+features[features_api][] = api:2
+features[filter][] = full_html
+features[wysiwyg][] = full_html
