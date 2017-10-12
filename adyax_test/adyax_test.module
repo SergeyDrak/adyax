@@ -394,6 +394,7 @@ function adyax_test_wysiwyg_plugin($editor, $version) {
     'footnotes' => array(
       'buttons' => array('footnotes' => t('Add Footnote')),
       'basePath' => base_path(),
+      'load' => TRUE,
     ),
   );
   switch ($editor) {
